@@ -1,0 +1,136 @@
+:root{
+    font-family: monospace;
+    font-stretch:extra-expanded;
+    font-variant:initial;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    --rem: 5;
+}
+
+h1{
+    font-size: medium;
+    border: 0px;
+}
+h2{
+    border: 0px;
+    margin:0px
+}
+
+#btnMenu{
+    font-size: medium;
+    border: 0px;
+}
+
+header{
+    background-color: white;
+    color:orangered;
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;  
+    height: fit-content;
+
+}
+
+#wrapperHeader{
+    display: flex;
+    top:0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: medium;
+
+}
+
+
+#menuInside{
+    top: 100px;
+    align-items: self-end;
+    padding: 5px 5px 20px;
+    font-size:smaller;
+}
+
+.hidden{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: calc(100vh - 30px);
+    top: 100px;
+    overflow: hidden;
+    /* padding: 0px 20px; */
+    background-color: white;
+}
+#sectionArt{
+    background-color: 	#ffffff;
+    color: orangered;
+    width: 20vw;
+    height: calc(100vh - 30px);
+    display: flex;
+    justify-content: center;
+    writing-mode: vertical-lr;
+
+
+}
+#sectionArchitecture{
+    background-color:#f0f0f0 ;
+    color: orangered;
+    width: 20vw;
+    height: calc(100vh - 30px);
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    writing-mode: vertical-lr;
+
+}
+#sectionPets{
+    background-color:#c0c0c0;
+    color: rgb(187, 52, 2);
+    width: 20vw;
+    height: calc(100vh - 30px);
+    display: flex;
+    justify-content: center;
+    writing-mode: vertical-lr;
+
+
+}
+#sectionPortraits{
+    background-color:#808080;
+    color: rgb(142, 39, 2);
+    width: 20vw;
+    height: calc(100vh - 30px);
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    writing-mode: vertical-lr;
+
+}
+#sectionRetouch{
+    background-color: black;
+    color: orangered;
+    width: 20vw;
+    height: calc(100vh - 30px);
+    display: flex;
+    justify-content: center;
+    writing-mode: vertical-lr;
+
+}
+
+.section{
+    font-stretch: extra-condensed;
+    
+}
+
+.secWrapper{
+    display: flex;
+    height: 40vh;
+
+}
+
+.mouseOver{
+    width:40vw;
+}
